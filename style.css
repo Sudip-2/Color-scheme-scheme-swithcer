@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100svh;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.1rem;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 45px;
+    flex-wrap: wrap;
+}
+
+.button {
+    height: 170px;
+    width: 170px;
+    background-color: black;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#red{
+    background-color: red;
+    border: solid;
+}
+
+#yellow{
+    background-color: yellow;
+    border: solid;
+}
+
+#blue{
+    background-color: blue;
+    border: solid;
+}
+
+#lime{
+    background-color: lime;
+    border: solid;
+}
+
+p {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.4rem;
+}
